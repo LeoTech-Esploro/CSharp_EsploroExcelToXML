@@ -6,7 +6,7 @@
     <ProjectGuid>{A5FDC00B-5402-4571-92A5-9892FB85AE3E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>EsploroExcelToXML</RootNamespace>
-    <AssemblyName>EsploroCSVtoXML</AssemblyName>
+    <AssemblyName>EsploroExcelToXML</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
