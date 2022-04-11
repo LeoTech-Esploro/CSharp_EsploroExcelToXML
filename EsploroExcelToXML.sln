@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsploroExcelToXML", "EsploroExcelToXML\EsploroExcelToXML.csproj", "{A5FDC00B-5402-4571-92A5-9892FB85AE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FDC00B-5402-4571-92A5-9892FB85AE3E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A5FDC00B-5402-4571-92A5-9892FB85AE3E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A5FDC00B-5402-4571-92A5-9892FB85AE3E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A5FDC00B-5402-4571-92A5-9892FB85AE3E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D7F3D3C-4CEE-43AA-90C0-0F023CC0A45A}
+	EndGlobalSection
+EndGlobal
