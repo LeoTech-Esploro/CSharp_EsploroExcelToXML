@@ -74,7 +74,7 @@ namespace EsploroExcelToXML
             xml.WriteAttributeString("segment_type", "External");
 
             // TODO: Need to get ID types from code table using API and select appropriate one
-            xml.WriteElementString("id_type", "Other");
+            xml.WriteElementString("id_type", "OTHER_ID_1");
             // TODO: Make sure we have an email here
             xml.WriteElementString("value", this.Email);
             xml.WriteElementString("status", "ACTIVE");

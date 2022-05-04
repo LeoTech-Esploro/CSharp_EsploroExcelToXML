@@ -59,6 +59,9 @@ namespace EsploroExcelToXML
             if (Utility.StringHasUsefulData(this.MiddleName)) xml.WriteElementString("researcher_middle_name", this.MiddleName);
             if (Utility.StringHasUsefulData(this.LastName))   xml.WriteElementString("researcher_last_name",   this.LastName);
 
+            // TODO: Maybe complex types like keywords should be implemented abstractly as a class with its own "WriteXML" method.
+            // Depends on how OOP I feel like getting. For a full implementation of this concept, this method would get pretty long
+            // doing it procedurally.
             if (this.Keywords.Count > 1)
             {
                 xml.WriteStartElement("researcher_keywords");
@@ -73,7 +76,7 @@ namespace EsploroExcelToXML
                 xml.WriteEndElement(); // researcher_keywords
             }
 
-            if (Utility.StringHasUsefulData(this.ProfileURLIdentifier))
+            /*if (Utility.StringHasUsefulData(this.ProfileURLIdentifier))
             {
                 xml.WriteStartElement("user_identifiers");
 
@@ -88,7 +91,7 @@ namespace EsploroExcelToXML
                 xml.WriteEndElement(); // user_identifier
 
                 xml.WriteEndElement(); // user_identifiers
-            }
+            }*/
 
             xml.WriteEndElement(); // researcher
         }
